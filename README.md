@@ -138,3 +138,16 @@ Run migration for the initial migration files.
 python3 manage.py migrate
 ```
 
+<br>
+<br>
+<br>
+
+# Clone project to local host
+- Clone the project
+- Create virtual environment env and activate it
+- Install all the packages from `requirements.txt` file
+```bash
+pip install -r requirements.txt
+```
+- Intigrate PostgreSQL to the project
+- Make migrations files and run all migration
