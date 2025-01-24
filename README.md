@@ -9,10 +9,15 @@ This project involves creating an API for a `Task Management system`. It will in
 ## User
 - id (Primary Key)
 - username (Unique, String)
+- firstname
+- lastname
 - email (Unique, String)
 - password (String, hashed for security)
-- organization
-- designation
+- is_staff (Boolean)
+- is_active (Boolean)
+- date_joined (Timestamp)
+- last_login (Timestamp)
+- is_superuser (Boolean)
 
 ### Relationships
 - A `User` can have one `UserProfile` **(1-to-1)**.
